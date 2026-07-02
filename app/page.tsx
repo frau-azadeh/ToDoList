@@ -1,9 +1,9 @@
-export default function Home(){
-  return(
+export default function Home() {
+  return (
     <>
       <div>
         <h1>To Do List</h1>
       </div>
     </>
-  )
+  );
 }

@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+/******* start Font Yekan*********/
+
+@font-face {
+  font-family: "Yekan";
+  src: url("/fonts/IRANYekanWebRegular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Yekan";
+  src: url("/fonts/IRANYekanWebMedium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Yekan";
+  src: url("/fonts/IRANYekanWebBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* اختیاری: */
+@font-face {
+  font-family: "Yekan";
+  src: url("/fonts/IRANYekanWebBlack.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Yekan", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/******* end Font Yekan*********/
+/*******start color ***********/
+
+@theme inline {
+  --color-folad-green: #42ba85;
+  --color-folad-dark-gray: #a7a9ac;
+  --color-folad-gray: #58595b;
+
+  /* Brand */
+  --color-primary: #2f855a;
+  --color-primary-hover: #276b4b;
+
+  /* Accent (Yellow) */
+  --color-accent: #ffd400;
+  --color-accent-hover: #e6b800;
+
+  /* Surfaces */
+  /* Background (Very Lighet Yellow) */
+  /*  --color-background: #f5ffeb;*/
+  /*--color-background:#f9fff4;*/
+  --color-background: #ffffff;
+  /*--color-background:#fcfff9;*/
+
+  --color-cards: #f4f4f4;
+
+  --color-surface: #ffffff;
+  --color-muted: #f7f8f5;
+
+  /* Text & Border */
+  --color-text: #1f2937;
+  --color-text-muted: #6b7280;
+  --color-border: #e5e7eb;
+
+  /* Focus ring */
+  --color-ring: #2f855a;
+
+  /* Button */
+  --color-primary: #2f855a;
+  --color-primary-hover: #276b4b;
+
+  --color-success: #22c55e;
+  --color-success-hover: #16a34a;
+
+  --color-danger: #e11d48;
+  --color-danger-hover: #be123c;
+
+  /* outline  */
+  --color-outline-hover: #e9f5ef;
+
+  /* muted */
+  --color-muted-200: #e5e7eb; /* bg/border */
+  --color-muted-400: #9ca3af; /* text */
+}
+/*******end color ***********/
+
+html {
+  font-family: "Yekan", sans-serif;
+}
+
+body {
+  font-family: "Yekan", sans-serif;
+  font-weight: 400;
+  line-height: 1.9;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ffffff;
+  }
+}
